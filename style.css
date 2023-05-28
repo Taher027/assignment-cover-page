@@ -12,6 +12,7 @@ body {
   height: auto;
   margin: 0 auto;
   background-color: white;
+  padding: 50px;
 }
 .container {
   padding: 50px;
@@ -45,6 +46,7 @@ body {
   text-align: center;
 }
 
+/* course title course code info  */
 .course_info {
   width: 70%;
   margin: 0 auto;
@@ -58,18 +60,44 @@ body {
   font-weight: 400;
   padding: 6px;
 }
+
+/* sumitted information sections  */
+
 .submitted_to {
   margin-top: 60px;
   padding-left: 10px;
 }
-.submitted_to h3 {
+.submitted_h {
+  margin-top: 80px;
   font-size: 30px;
-  font-weight: 500px;
+  font-weight: 700px;
   text-decoration: underline;
   margin-bottom: 25px;
 }
-.submitted_to p{
-    margin-top: 10px;
-    font-size: 24px;
-    font-weight: 500;
+.submitted_p {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.submitted_date {
+  margin-top: 80px;
+}
+.submitted_p span{
+    font-weight: 600;
+}
+
+/* submittion date 
+ */
+
+.submitted_date {
+  font-size: 24px;
+  font-weight: 600;
+}
+.generate_develper{
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 50px;
+    text-align: right;
+    color:cadetblue;
+
 }
