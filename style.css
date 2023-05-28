@@ -1,6 +1,35 @@
-.takla{
-    color:red;
-    font-size: 30px;
-    text-decoration: dashed;
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_container{width: 1200px; height:auto;
+    margin: 0 auto;
+    background-color: white;
+
+}
+.container{
+    
+    padding: 50px;
+    border: 1px solid black;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_logo img{
+    width: 160px;
+    height: auto;
+}
+.header_title h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+}
+.header_title p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
     text-align: center;
 }
