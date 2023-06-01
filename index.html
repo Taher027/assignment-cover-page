@@ -6,43 +6,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>assignment-cover-page</title>
     <link rel="stylesheet" href="style.css" />
+
+    <style>
+      @font-face {
+        font-family: "times_new_roman_cyr";
+        src: url("times_new_roman-webfont.woff2") format("woff2"),
+          url("times_new_roman-webfont.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #e6e6e6;
+      }
+
+      /* set layout  */
+      .main_container {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        background-color: white;
+      }
+      .container {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        margin: 0 auto;
+      }
+
+      /* Header section  */
+      .header_logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .header_logo img {
+        width: 160px;
+        height: auto;
+        border-radius: 2px;
+      }
+      .header_title h2 {
+        font-size: 20px;
+        font-weight: 800;
+        font-family: "Times New Roman", Times, serif;
+        color: red;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 20px;
+      }
+      .header_title h3 {
+        font-size: 20px;
+        color: #1f4e79;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 10px;
+      }
+      .header_title p {
+        font-size: 20px;
+        font-family: Times New Roman;
+        font-style: italic;
+        color: #1f4e79;
+        font-weight: 700;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      /* course title course code info  */
+
+      .course_info {
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 40px;
+      }
+      span {
+        font-weight: 600;
+      }
+      .course_info p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px;
+      }
+      /* submitted information sections  */
+      .submit-info-container {
+        width: 80%;
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .submit-info-container_item {
+        flex: 1;
+        width: 50%;
+      }
+      .submitted_by {
+        margin-left: 200px;
+      }
+      .submitted_h {
+        margin-top: 50px;
+        font-size: 18px;
+        font-weight: 700px;
+        text-decoration: underline;
+        margin-bottom: 25px;
+      }
+      .submitted_p {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      /* submittion date */
+      .submitted_date {
+        margin-top: 80px;
+      }
+      .submitted_date p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .generate_develper {
+        font-size: 10px;
+        font-weight: 600;
+        margin-top: 50px;
+        text-align: right;
+        color: cadetblue;
+      }
+    </style>
   </head>
   <body>
     <div class="main_container">
       <div class="container">
         <div class="header_logo">
-          <img src="assets/Logo.jpg" alt="versity-logo" />
+          <img src="assets/UGV_Logo.png" alt="versity-logo" />
         </div>
         <div class="header_title">
-          <h2>UNIVERSITY OF GLOBAL VILLAGE</h2>
-          <p>Assignment:</p>
+          <h2>UNIVERSITY OF GLOBAL VILLAGE (UGV), BARISHAL</h2>
+          <h3>Dept. of Computer Science and Engineering</h3>
+          <p>Assignment For</p>
         </div>
+
         <div class="course_info">
-          <p>Course Code: CSE-304</p>
-          <p>Course Title: Computer Architecture And Software development</p>
+          <p><span>Course Code:</span> CSE-304</p>
+          <p>
+            <span>Course Title:</span> Computer Architecture And Software
+            development
+          </p>
         </div>
-        <div class="submitted_to">
-          <h3 class="submitted_h">Submitted To:</h3>
-          <div class="submitted_p">
-            <p><span>Name:</span> Md. Admin</p>
-            <p><span>Name:</span>Lecturer</p>
-            <p><span>Dept:</span>Dept of CSE</p>
-            <p>University Of GLobal Village</p>
+
+        <div class="submit-info-container">
+          <div class="submitted_to submit-info-container_item">
+            <h3 class="submitted_h">Submitted To:</h3>
+            <div class="submitted_p">
+              <p><span>Name:</span> Md. Admin</p>
+              <p><span>Name:</span>Lecturer</p>
+              <p><span>Dept:</span>Dept of CSE</p>
+              <p>University Of GLobal Village</p>
+            </div>
+          </div>
+
+          <div class="submitted_by submit-info-container_item">
+            <h3 class="submitted_h">Submitted by:</h3>
+            <div class="submitted_p">
+              <p><span>Name:</span>Abu Taher Hosain</p>
+              <p><span>Id:</span> 1182368</p>
+              <p><span>Department:</span> CSE</p>
+              <p><span>Semester:</span> 7th</p>
+              <p><span>Semester:</span>Shift: Regular</p>
+            </div>
           </div>
         </div>
 
-        <div class="submitted_by">
-          <h3 class="submitted_h">Submitted by:</h3>
-          <div class="submitted_p">
-            <p><span>Name:</span>Abu Taher Hosain</p>
-            <p><span>Id:</span> 118268</p>
-            <p><span>Department:</span> CSE</p>
-            <p><span>Semester:</span> 7th</p>
-            <p><span>Semester:</span>Shift: Regular</p>
-          </div>
-        </div>
         <div class="submitted_date">
-          <p>Submission Date: 12-05-2023</p>
+          <p>Date of Submission: 12-05-2023</p>
         </div>
 
         <div class="generate_develper">

@@ -1,103 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  background-color: #e6e6e6;
-}
 
-/* set layout  */
-.main_container {
-  width: 80%;
-  height: auto;
-  margin: 0 auto;
-  background-color: white;
-  padding: 50px;
-}
-.container {
-  padding: 50px;
-  border: 1px solid black;
-  width: 80%;
-  margin: 0 auto;
-}
 
-/* Header section  */
-.header_logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.header_logo img {
-  width: 160px;
-  height: auto;
-  border-radius: 2px;
-}
-.header_title h2 {
-  font-size: 35px;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 0;
-  margin-top: 20px;
-}
-.header_title p {
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: 20px;
-  text-align: center;
-}
 
-/* course title course code info  */
-.course_info {
-  width: 70%;
-  margin: 0 auto;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 20px;
-  margin-top: 40px;
-}
-.course_info p {
-  font-size: 24px;
-  font-weight: 400;
-  padding: 6px;
-}
 
-/* sumitted information sections  */
 
-.submitted_to {
-  margin-top: 60px;
-  padding-left: 10px;
-}
-.submitted_h {
-  margin-top: 80px;
-  font-size: 30px;
-  font-weight: 700px;
-  text-decoration: underline;
-  margin-bottom: 25px;
-}
-.submitted_p {
-  margin-top: 10px;
-  font-size: 24px;
-  font-weight: 500;
-}
-.submitted_date {
-  margin-top: 80px;
-}
-.submitted_p span{
-    font-weight: 600;
-}
 
-/* submittion date 
+
+
+
+
+
+
+
+ 
  */
 
-.submitted_date {
-  font-size: 24px;
-  font-weight: 600;
-}
-.generate_develper{
-    font-size: 10px;
-    font-weight: 600;
-    margin-top: 50px;
-    text-align: right;
-    color:cadetblue;
-
-}
